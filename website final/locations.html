@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamalicious Ice Cream</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">CREAMALICIOUS ICE CREAM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="flavors.html">Flavors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="locations.html">Locations</a>
+                  </li>
+                </ul>
+                <a class="btn btn-dark" href="order.html" role="button">Order now!</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="md-5">Our locations</h1>
+                <p class="md-4">We have many locations available across the country. Use the map to check them out.</p>
+            </div>
+            <div class="col-md-6">
+              <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+                <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                  <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pacific+Ocean&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                </div>
+              <a class="google-maps-html" href="https://kbj9qpmy.com/bp" id="make-map-data">Internet Provider</a>
+              <style>#gmap-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}</style>
+            </div>
+          </div>
+        </div>
+    </main>
+    <br>
+    <footer class="footer mt-auto py-3 bg-dark-subtle">
+      <div class="container">
+          <span class="text-muted"><a class="text-black" href="index.html">Copyright 2024 Creamalicious Ice Cream</a></span>
+      </div>
+  </footer>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
